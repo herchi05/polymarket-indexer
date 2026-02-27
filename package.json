@@ -1,9 +1,11 @@
 {
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "ws": "ts-node src/listener.ts",
+    "api": "ts-node src/api.ts"
   },
   "dependencies": {
     "@clickhouse/client": "^1.17.0",
+    "@polymarket/ctf-utils": "^1.0.1",
     "@types/express": "^5.0.6",
     "dotenv": "^17.3.1",
     "ethers": "^6.16.0",
